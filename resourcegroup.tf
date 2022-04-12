@@ -17,3 +17,9 @@ resource "azurerm_resource_group" "rg-HUB"{
     name = var.rg-HUB
     location = var.rg-location
 }
+
+/*test*/
+resource "azurerm_resource_group" "rg-HUB"{
+    name = "test"
+    location = "Japanwest"
+}
