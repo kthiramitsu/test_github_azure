@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "rg-HUB"{
 }
 
 /*test*/
-resource "azurerm_resource_group" "rg-HUB"{
+resource "azurerm_resource_group" "rg-test"{
     name = "test"
     location = "Japanwest"
 }
